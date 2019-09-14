@@ -1,0 +1,207 @@
+<resources>
+    <string name="app_name">JainDarshan</string>
+    <string name="dash_board_title">Home</string>
+    <string name="strotra">स्तोत्र</string>
+    <string name="chalisa">चालीसा</string>
+    <string name="puja">पूजा</string>
+    <string name="bhavna">भक्ति</string>
+    <string name="stuti">स्तुति</string>
+    <string name="aarti">आरती</string>
+    <string name="bhajan">भजन</string>
+    <string name="favorite">Favourite</string>
+    <string name="tirthankar">24 तीर्थंकर</string>
+    <string name="poem_title">क्षमासागर महाराज जी की कविताएं</string>
+    <string name="ok">OK</string>
+    <string name="source">Source station</string>
+    <string name="dest">Destination</string>
+    <string name="name">Name</string>
+    <string name="contact_info">Info</string>
+    <string name="more_info">More Info ></string>
+    <string name="about_us_title">About Us</string>
+    <string name="address">Address</string>
+    <string name="contact_no">Contact No</string>
+    <string name="rating">Rating</string>
+    <string name="fill_detail">Fill Temple Detail</string>
+    <string name="temple_name">Temple Name</string>
+    <string name="temple_address">Address</string>
+    <string name="temple_contact_no">Contact No</string>
+    <string name="temple_city">City</string>
+    <string name="submit">Submit</string>
+    <string name="cancel">Cancel</string>
+    <string name="enter_valid_temple_name">Please enter valid Temple Name</string>
+    <string name="enter_valid_city_name">Please enter valid City Name</string>
+    <string name="enter_valid_address">Please enter valid Address</string>
+    <string name="enter_valid_contact_no">Please enter valid Contact No</string>
+    <string name="distance">Distance</string>
+    <string name="from">From</string>
+    <string name="delete_msg">Are you sure you want to delete this audio?</string>
+
+    <string name="templedetail">TempleInfo</string>
+    <string name="tithi_darpan">तिथी दर्पण(2019)</string>
+    <string name="temple_in_location">मंदिर खोजें</string>
+    <string name="dharmashala_in_location">धर्मशाला खोजें</string>
+    <string name="sunday">SUN</string>
+    <string name="monday">MON</string>
+    <string name="tuesday">TUE</string>
+    <string name="wednesday">WED</string>
+    <string name="thursday">THU</string>
+    <string name="friday">FRI</string>
+    <string name="saturday">SAT</string>
+
+    <string name="sunday_h">रवि</string>
+    <string name="monday_h">सोम</string>
+    <string name="tuesday_h">मंगल</string>
+    <string name="wednesday_h">बुध</string>
+    <string name="thursday_h">गुरु</string>
+    <string name="friday_h">शुक्र</string>
+    <string name="saturday_h">शनि</string>
+    <string name="father_name">पिता का नाम</string>
+    <string name="name_hindi">नाम</string>
+    <string name="mothrt_name">माता का नाम</string>
+    <string name="birth_place">जन्म स्थान</string>
+    <string name="birth_tithi">जन्म तिथी</string>
+    <string name="diksha_tithi">दीक्षा तिथी</string>
+    <string name="keval_gyan_tithi">केवलज्ञान तिथी</string>
+    <string name="nakshatra">जन्म नक्षत्र</string>
+    <string name="nirvan_place">निर्वाण  स्थान</string>
+    <string name="neerwan_tithi">निर्वाण तिथी</string>
+
+    <string name="pratik_sign">प्रतीक चिन्ह : </string>
+    <string name="calender_not_udpated">Calendar not updated Please Update APP</string>
+    <string name="temple_map">Temple In Map</string>
+
+
+
+<!--ad live-->
+<!--  <string name="ad_app_id">ca-app-pub-3554272007922111~8787201768</string>
+  <string name="bannser_ad">ca-app-pub-3554272007922111/5696992239</string>
+    <string name="Interstitial_Ads">ca-app-pub-3554272007922111/7173725433</string>
+    <string name="Native_Ads_Express">ca-app-pub-2351049385762184/6112509990</string>
+    <string name="Medium_Native_Ads_Express">ca-app-pub-2351049385762184/3895031459</string>
+     <string name="Medium_advance_Native_Ads_Express">ca-app-pub-3940256099942544/2247696110</string>
+    <string name="small_Native_Ads_Express">ca-app-pub-3554272007922111/5203179975</string>-->
+
+    <!--ad demo-->
+    <string name="ad_app_id">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="bannser_ad">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="Interstitial_Ads">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="Native_Ads_Express">ca-app-pub-2351049385762184/6112509990</string>
+    <string name="Medium_Native_Ads_Express">ca-app-pub-3940256099942544/2793859312</string>
+    <string name="Medium_advance_Native_Ads_Express">ca-app-pub-3940256099942544/2247696110</string>
+    <string name="small_Native_Ads_Express">ca-app-pub-ca-app-pub-3940256099942544/2793859312</string>
+
+    <!-- TestData
+    Banner	ca-app-pub-3940256099942544/6300978111
+    Interstitial	ca-app-pub-3940256099942544/1033173712
+    Rewarded Video	ca-app-pub-3940256099942544/5224354917
+    Native Advanced	ca-app-pub-3940256099942544/2247696110
+    Native Express	(Small template): ca-app-pub-3940256099942544/2793859312-->
+
+    <string name="rate_app_message">If you like our app, please take a moment to rate it in play store!</string>
+    <string name="dialog_app_rate">Rate App</string>
+    <string name="dialog_ask_later">Later</string>
+    <string name="dialog_your_feedback">Your Feedback</string>
+    <string name="about_us"><![CDATA[Jai Jinendra\n\nJainDarshan is the most comprehensive and user friendly Jainism Android App, which provides complete reading list of Jain Stuti, Jain Paath, Jain Chalisa,Jain Stotra,Jain Arti, Pooja. You can perform Jain Tirthankar Darshan,  Bhaktamar Stotra, Dev Darshan Stotra etc. you can find almost all jain puja list in it. Apart from detailed Jain Jinvaani Data,
+    you can also find Jain temple in your area by search through Google\'s API. you can also get connect detail of temple also. \n\nFeature of this app:\n
+1: Find Jain Temple in your area.\n
+2: Jain Strotra.\n
+3: Jain Chalisa.\n
+4: Jain Puja.\n
+5: Jain Bhakti.\n
+6: Jain Stuti.\n
+7: Jain Tithi Darpan.\n
+8: Jain Arti.\n
+9: NamokarMantra.\n
+10: Audio online play and download.\n
+11: Muni shree 108 Kshamasagar maharaj poem.\n\n
+If you are enjoying this app then provide for valuable feedback to us.]]></string>
+    <string name="press_exit">Press again to Exit....</string>
+    <string name="search_help">For best result search address like (LAXMI NAGAR DELHI)</string>
+    <string name="next">Next</string>
+    <string name="namokar_mahamantra">नमोकर महामंत्र</string>
+    <string name="no_favourite_temple_found">No Favourite temple found \n continue search Temple...</string>
+    <string name="no_favourite_content_found">No Favourite data found \n continue to add Data...</string>
+    <string name="no_favourite_audio_found">No Favourite audio found \n continue to search audio...</string>
+    <string name="search_temple">Search Temple</string>
+    <string name="search_content">Search</string>
+    <string name="label_pause">Pause</string>
+    <string name="label_play">Play</string>
+    <string name="time">Time</string>
+    <string name="audio">ऑडियो</string>
+    <string name="network_not_available">Network not available</string>
+    <string name="please_wait">Please wait...</string>
+    <string name="download">Downloaded Audio</string>
+    <string name="downloading_audio">Downloading Audio</string>
+    <string name="already_downlad_file">Audio already downloaded</string>
+    <string name="search_audio">Search Audio</string>
+    <string name="no_download_found">No Download find continue search Audio</string>
+    <string name="download_dialog">Are you sure you want to download this Audio?</string>
+    <string name="yes">Yes</string>
+    <string name="new_version_available">A newer version of JainDarshan is available.Would you like to Update?</string>
+    <string name="update">UPDATE</string>
+    <string name="no_thanks">NO, THANKS</string>
+    <string name="sunrise_sunset_title">सूर्योदय/सूर्यास्त</string>
+    <string name="notification_title">Notification</string>
+    <string name="channel_name">my_channel_send</string>
+    <string name="channel_description">channel_for_get_notification</string>
+
+
+    <string-array name="dashBoard_item">
+        <item>मंदिर खोजें\n(Find Temple)</item>
+        <item>धर्मशाला खोजें\n(Find Dharamshala)</item>
+        <item>स्तोत्र\n(Strotra)</item>
+        <item>चालीसा\n(Chalisa)</item>
+        <item>पूजा\n(Puja)</item>
+        <item>भक्ति\n (Bhakti)</item>
+        <item>स्तुति\n(Stuti)</item>
+        <item>तिथी दर्पण\n(Calendar)</item>
+        <item>आरती\n(Arti)</item>
+        <item>भजन\n(Bhajan)</item>
+        <item>24 तीर्थंकर\n (24 Tirthankar)</item>
+        <item>सूर्योदय/सूर्यास्त\n(Sunrise/Sunset)</item>
+        <item>ऑडियो\n(Audio)</item>
+
+    </string-array>
+
+
+    <string-array name="navDrawerItems">
+        <item>Home</item>
+        <item>Namokar Mahamantra</item>
+        <item>Favourite</item>
+        <item>Audio</item>
+        <item>Downloads</item>
+        <item>Share</item>
+        <item>Rate Us</item>
+        <item>My Other Apps</item>
+        <item>About Us </item>
+    </string-array>
+
+
+    <string-array name="navDrawerItems_new">
+        <item>""</item>
+        <item>New</item>
+        <item>""</item>
+        <item>""</item>
+        <item>New</item>
+        <item>New</item>
+        <item>""</item>
+        <item>""</item>
+        <item>New</item>
+        <item>""</item>
+    </string-array>
+
+    <string-array name="navDrawerItemsColor">
+        <item>#f7a1be</item>
+        <item>#f7aea1</item>
+        <item>#a1c1f7</item>
+        <item>#d292c4</item>
+        <item>#96d4cd</item>
+        <item>#96d4cd</item>
+        <item>#c0d48d</item>
+        <item>#c0d48d</item>
+        <item>#c0d48d</item>
+        <item>#c0d48d</item>
+        <item>#c0d48d</item>
+        <item>#c0d48d</item>
+    </string-array>
+</resources>

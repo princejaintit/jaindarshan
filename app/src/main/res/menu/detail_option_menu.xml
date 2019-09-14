@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:yourapp="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_navigation"
+        android:title="favorite"
+        android:icon="@drawable/baseline_directions_white_24dp"
+        android:orderInCategory="100"
+        yourapp:showAsAction="always"/>
+    <item
+        android:id="@+id/action_wishList"
+        android:title="favorite"
+        android:icon="@drawable/ic_favorite_border_white_24dp"
+        android:orderInCategory="100"
+        yourapp:showAsAction="always"/>
+    <item
+        android:id="@+id/action_location"
+        android:title="favorite"
+        android:icon="@drawable/ic_room_white_24dp"
+        android:orderInCategory="100"
+        yourapp:showAsAction="always"/>
+
+</menu>

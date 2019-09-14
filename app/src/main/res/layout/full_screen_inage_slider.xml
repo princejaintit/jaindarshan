@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/whole_bg"
+    android:padding="25dp">
+
+    <ImageButton
+        android:id="@+id/dialog_cut_iv"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:src="@drawable/ic_clear_black_24dp"
+        android:layout_gravity="left"/>
+
+    <RelativeLayout
+        android:id="@+id/frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/bannerFlipperdialog"
+            android:layout_width="fill_parent"
+            android:layout_height="300dp"
+           android:layout_centerInParent="true"
+            />
+
+        <LinearLayout
+            android:id="@+id/ll_dots_full_screen"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:orientation="horizontal"></LinearLayout>
+
+
+      <!--  <com.tekshapers.onlybrand.util.CirclePageIndicator
+            android:id="@+id/indicatorFlipperdialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/dim_5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="@dimen/dim_5dp" />
+-->
+    </RelativeLayout>
+
+</LinearLayout>

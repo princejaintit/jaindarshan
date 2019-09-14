@@ -1,0 +1,64 @@
+{
+  "project_info": {
+    "project_number": "275593395141",
+    "firebase_url": "https://jainmandir-2818d.firebaseio.com",
+    "project_id": "jainmandir-2818d",
+    "storage_bucket": "jainmandir-2818d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:275593395141:android:7f84048cb1e9cb0a",
+        "android_client_info": {
+          "package_name": "com.jain.temple.jainmandirdarshan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "275593395141-2amm80rsn89qfsm8r319qjsfd5117ooq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jain.temple.jainmandirdarshan",
+            "certificate_hash": "48e5167b2cf58af033fc4406de1c4bea9e0f13ed"
+          }
+        },
+        {
+          "client_id": "275593395141-k4bkmppg2so4oftkuujsd1ug4mt9m1qq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jain.temple.jainmandirdarshan",
+            "certificate_hash": "8c5a0f494dfd7d3320f903ebd2e4ff4cb198a820"
+          }
+        },
+        {
+          "client_id": "275593395141-kk1mi92ruka4i30s8u1fq5h7dadh6jvh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7IcONUPKazn8ZtuTdga-hY25rUVS0FyI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "275593395141-kk1mi92ruka4i30s8u1fq5h7dadh6jvh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      },
+      "admob_app_id": "ca-app-pub-2351049385762184~3929199784"
+    }
+  ],
+  "configuration_version": "1"
+}

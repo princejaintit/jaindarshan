@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jain.temple.jainmandirdarshan">
+
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+   <!-- <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />-->
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+
+    <application
+        android:name=".util.AppController"
+        android:allowBackup="true"
+        android:icon="@drawable/launcher_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/launcher_icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+
+        <activity
+            android:name=".activity.SplashScreenActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeHome">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".activity.NamokarActivity"
+            android:label="@string/namokar_mahamantra"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeHome">
+
+        </activity>
+
+        <activity
+            android:name=".activity.FindDharamshalaActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/dharmashala_in_location"
+            android:theme="@style/AppThemeHome">
+        </activity>
+
+
+        <activity
+            android:name=".activity.SunsetSunriseActvity"
+            android:screenOrientation="portrait"
+            android:label="@string/sunrise_sunset_title"
+            android:theme="@style/AppThemeHome">
+        </activity>
+
+        <activity
+            android:name=".activity.NotificationActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/notification_title"
+            android:theme="@style/AppThemeHome" >
+
+        </activity>
+
+
+        <activity
+            android:name=".activity.FavouriteActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeHome"
+            android:label="@string/favorite"/>
+
+
+        <activity
+            android:name=".activity.HomeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeHome"></activity>
+
+        <activity
+            android:name=".activity.CalendarActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/tithi_darpan"
+            android:theme="@style/AppThemeHome"></activity>
+
+
+        <activity
+            android:name=".activity.PoemListActivity"
+            android:label="@string/poem_title"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeHome">
+        </activity>
+
+        <activity
+            android:name=".activity.PoemDetailActivity"
+            android:label="@string/poem_title"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeHome">
+        </activity>
+
+
+        <activity
+            android:name=".activity.MapsActivityCurrentPlace"
+            android:label="@string/temple_map"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeHome"></activity>
+
+        <activity
+            android:name=".activity.DownloadListActivity"
+            android:label="@string/download"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeHome"></activity>
+
+        <activity
+            android:name=".activity.FullStrotraActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeHome"></activity>
+
+        <activity
+            android:name=".activity.TempleContactDetailActivity"
+            android:label="@string/templedetail"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeHome">
+
+        </activity>
+
+
+        <activity
+            android:name=".activity.TirthankarActivity"
+            android:label="@string/tirthankar"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeHome">
+
+        </activity>
+
+
+        <activity
+            android:name=".activity.FindTempleActivity"
+            android:label="@string/temple_in_location"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeHome"></activity>
+
+
+        <activity
+            android:name=".activity.BhavnaActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeHome"
+            android:windowSoftInputMode="adjustResize|stateHidden">
+
+        </activity>
+
+        <activity
+            android:name=".activity.SubMenuPujaActivity"
+            android:label="@string/puja"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeHome">
+
+        </activity>
+
+
+        <activity
+            android:name=".activity.TirthankarDetailActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeHome">
+
+        </activity>
+
+
+        <activity
+            android:name=".activity.AudioListActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/audio"
+            android:theme="@style/AppThemeHome">
+
+        </activity>
+
+        <activity android:name=".activity.MApActivity">
+<!--
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>-->
+        </activity>
+
+        <activity
+            android:name=".MediaPlayer.PlayerActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeHome">
+
+        </activity>
+        <receiver android:name="android.support.v4.media.session.MediaButtonReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.MEDIA_BUTTON" />
+            </intent-filter>
+        </receiver>
+
+
+
+
+
+
+        <service android:name=".Service.SendPushNotificationService" />
+
+        <service
+            android:name=".Fcm.MyFirebaseMessagingService"
+            android:stopWithTask="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+
+
+        <!-- <receiver android:name=".Receiver.AlarmReceiver"/>
+
+         <receiver android:name=".Receiver.BootReceiver"
+             android:enabled="false">
+             <intent-filter>
+                 <action android:name="android.intent.action.BOOT_COMPLETED"/>
+             </intent-filter>
+         </receiver>
+
+          <receiver android:name=".Receiver.NetworkChangeReceiver" >
+             <intent-filter>
+                 <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+             </intent-filter>
+         </receiver>
+         -->
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/launcher_icon" />
+        <!-- Set color used with incoming NotificationEntity messages. This is used when no color is set for the incoming
+             NotificationEntity message. See README(https://goo.gl/6BKBk7) for more. -->
+      <!--  <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/white" />
+        <meta-data
+            android:name="com.google.android.gms.car.NotificationEntity.SmallIcon"
+            android:resource="@drawable/ic_stat_ic_notification" />
+-->
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="${map_io_direction_key}" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="${fabric_api_key}"
+
+
+
+        />
+
+        <service
+            android:name=".scheduler.TestJobService"
+            android:label="Word service"
+            android:permission="android.permission.BIND_JOB_SERVICE">
+
+        </service>
+        <service android:name=".Service.SendPushNotificationServiceOreo"
+            android:permission="android.permission.BIND_JOB_SERVICE"
+            android:exported="true"
+            />
+    </application>
+
+</manifest>
